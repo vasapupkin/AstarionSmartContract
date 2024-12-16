@@ -60,6 +60,8 @@ interface IBlastPoints {
 
 contract Lottery {
 
+
+
 uint startTimeCompetition;
 uint endTimeCompetition;
 address owner;
