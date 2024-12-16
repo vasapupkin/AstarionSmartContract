@@ -56,6 +56,7 @@ interface IERC20 {
 
 interface IBlastPoints {
 	
+  
    function configurePointsOperator(address operator) external;
 }
 
