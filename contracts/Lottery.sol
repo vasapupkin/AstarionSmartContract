@@ -86,6 +86,7 @@ mapping(address => bool) private _balancesReward;
 bool internal locked;
 
 uint numberOfTop;
+
 address[] allAddresses;
 uint256 yieldAll;
 struct Weightedaverage{
