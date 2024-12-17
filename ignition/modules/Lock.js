@@ -12,6 +12,7 @@ module.exports = buildModule("LockModule", (m) => {
   const lockedAmount = m.getParameter("lockedAmount", ONE_GWEI);
 
   const lock = m.contract("Lottery", [unlockTime], {
+   
     value: lockedAmount,
   });
 
