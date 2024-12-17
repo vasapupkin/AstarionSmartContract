@@ -64,6 +64,7 @@ contract Lottery {
 
 
 uint startTimeCompetition;
+
 uint endTimeCompetition;
 address owner;
 address governor;
