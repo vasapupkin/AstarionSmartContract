@@ -68,6 +68,7 @@ uint startTimeCompetition;
 uint endTimeCompetition;
 
 address owner;
+
 address governor;
 uint totalPoints;
 uint256 totalAvgPoints;
