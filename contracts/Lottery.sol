@@ -80,6 +80,7 @@ uint256 totalAvgPoints;
 mapping(address => uint256) private _balances;
 
 mapping(address => uint256) private _balancesTop;
+
 mapping(address => bool) private _balancesReward;
 
 bool internal locked;
