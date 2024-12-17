@@ -119,6 +119,8 @@ describe("Lock", function () {
        
         await time.increaseTo(unlockTime);
 
+
+        
         await expect(lock.withdraw()).to.changeEtherBalances(
           [owner, lock],
           [lockedAmount, -lockedAmount]
