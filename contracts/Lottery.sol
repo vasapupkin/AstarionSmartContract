@@ -88,6 +88,7 @@ bool internal locked;
 uint numberOfTop;
 
 address[] allAddresses;
+
 uint256 yieldAll;
 struct Weightedaverage{
         uint256 start;
